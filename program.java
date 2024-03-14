@@ -16,7 +16,7 @@ class program{
     }
 }
 
-// //java program to perform calculation
+//java program to perform calculation
 
 import java.util.*;
 class program{
@@ -103,4 +103,118 @@ class program{
         System.out.print(result);
     }
 }
+
+//java program to interchange two number
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter 1st number: ");
+        int a=sc.nextInt();
+        System.out.print("enter 2nd number: ");
+        int b=sc.nextInt();
+        System.out.println("vaue of a is "+a);
+        System.out.println("vaue of b is "+b);
+        int temp=a;
+        a=b;
+        b=temp;
+        System.out.println("After Exchanging the value");
+        System.out.println("value of a is "+ a);
+        System.out.print("value of b is "+ b);
+    }
+}
+
+//java program to check whether the character is vowel or not
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter a charcter: ");
+        char ch=sc.next().charAt(0);
+        if(ch=='a' || ch=='e' ||ch=='i' ||ch=='o' ||ch=='u' ||ch=='A' ||ch=='E' ||ch=='I' ||ch=='O' || ch=='U')
+        {
+            System.out.print("it is vowel");
+        }
+        else{
+            System.out.print("it is consonent");
+         }
+        }
+ }
+
+//java program to check whether the character is vowel or not using switch case
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter a character: ");
+        char ch=sc.next().charAt(0);
+        switch(ch){
+            case'a':
+            System.out.print("it is vowel");
+            break;
+              case'e':
+            System.out.print("it is vowel");
+            break;  
+            case'i':
+            System.out.print("it is vowel");
+            break;
+              case'o':
+            System.out.print("it is vowel");
+            break;  
+            case'u':
+            System.out.print("it is vowel");
+            break;
+              case'A':
+            System.out.print("it is vowel");
+            break;
+              case'E':
+            System.out.print("it is vowel");
+            break;
+              case'I':
+            System.out.print("it is vowel");
+            break;
+              case'O':
+            System.out.print("it is vowel");
+            break;
+              case'U':
+            System.out.print("it is vowel");
+            break;
+            default:
+                System.out.print("it is consonent");
+            break;
+        }
+    }
+}
+
+//java program to find sum of integer between 1 to 10 using for loop
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+           int sum=0;
+       for(int i=0;i<=10;i++){
+        sum=sum+i;
+       }
+       System.out.print(sum);
+    }
+}
+
+// //java program to find sum of integer between 1 to 10 using do while loop
+
+class program{
+    public static void main(String args[]){
+        int i=0,sum=0;
+        
+        do{
+            sum=sum+i;
+            i++;
+        }
+        while(i<=10);
+        System.out.print(sum);
+    }
+}
+
 
