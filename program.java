@@ -410,3 +410,95 @@ class program{
     }
 }
 
+//java program to evaluate the series 1^2 + 2^2 + 3^2 + 4^2
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        int sum=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the number till you want to find sum: ");
+        int num=sc.nextInt();
+        for(int i=0;i<=num;i++){
+            sum=sum+(i*i);
+        }
+        System.out.print(sum);
+    }
+}
+
+//java program to print pattern
+
+class program{
+    public static void main(String args[]){
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+    }
+}
+
+//java program to print pattern
+
+class program{
+    public static void main(String args[]){
+        for(int i=5;i>=1;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+    }
+}
+
+//java program to print pattern
+
+class program{
+    public static void main(String args[]){
+        for(char i='A';i<='E';i++){
+            for(char j='A';j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println(" ");
+        }
+    }
+}
+
+//or
+
+class program{
+    public static void main(String args[]){
+        for(char i=65;i<=69;i++){
+            for(char j=65;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println(" ");
+        }
+    }
+}
+
+//java program to find even or odd from given number
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the number of element: ");
+        int size=sc.nextInt();
+        int ar[]=new int[size];
+
+        for(int i=0;i<size;i++){
+            ar[i]=sc.nextInt();
+        }
+
+        for(int i=0;i<size;i++){
+            if(ar[i]%2==0){
+                System.out.print(ar[i] + " is even");
+            }
+            else{
+                System.out.print(ar[i] + " is odd");
+            }
+        }
+    }
+}
