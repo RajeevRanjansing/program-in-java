@@ -343,3 +343,70 @@ class program{
     }
 }
 
+//java program to print odd number between 1 to 20
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        for(int i=0;i<20;i++){
+            if(i%2 !=0){
+                System.out.println(i);
+            }
+        }
+    }
+}
+
+//java program to find factorial
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        int fact=1;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the number you want to find factorial: ");
+        int a=sc.nextInt();
+        for(int i=a;i>0;i--){
+            fact=fact*i;
+        }
+        System.out.print("factorial of a number is: "+ fact);
+    }
+}
+
+//java program to find first n fibonacci series
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        int a=0;
+        int b=1;
+        int c;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the size of series: ");
+        int size=sc.nextInt();
+        System.out.print( a);
+         System.out.print( b);
+        for(int i=1;i<=size-2;i++){
+            c=a+b;
+            System.out.print( c);
+            a=b;
+            b=c;
+        }
+     }
+}
+
+//java program to reverse a number
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter a number: ");
+        int num=sc.nextInt();
+        while(num>0){
+            int rev=num%10;
+            System.out.print(rev);
+            num=num/10;
+        }
+    }
+}
+
