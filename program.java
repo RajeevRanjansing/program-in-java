@@ -217,4 +217,129 @@ class program{
     }
 }
 
+java program to find maximum and minimum
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        int sum=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the size of an array: ");
+        int size=sc.nextInt();
+        int arr[]=new int[size];
+
+        for(int i=1;i<=size;i++){
+        arr[i]=sc.nextInt();
+        sum=sum+arr[i];
+        }
+        System.out.print(sum);
+    }
+}
+
+//java program to print number
+
+ import java.util.*;
+ class program{
+    public static void main(String args[]){
+        int number[]={1,2,3,4,5};
+        for(int i=0;i<5;i++){
+            System.out.println(number[i]);
+        }
+    }
+ }
+
+//java program to display the input number
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the size of an array: ");
+        int size=sc.nextInt();
+        int arr[]=new int[size];
+
+        //loop for input
+        for(int i=0;i<size;i++){
+            arr[i]=sc.nextInt();
+        }
+
+        for(int i=0;i<size;i++){
+            System.out.println(arr[i]);
+        }
+    }
+}
+
+//java program to find sum
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        int sum=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the size of an array: ");
+        int size=sc.nextInt();
+        int ar[]=new int[size];
+
+        for(int i=0;i<size;i++){
+            ar[i]=sc.nextInt();
+            sum=sum+ar[i];
+        }
+        System.out.print(sum);
+    }
+}
+
+//java program to search index of a number
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the size of an array: ");
+        int size=sc.nextInt();
+        int ar[]=new int[size];
+
+        for(int i=0;i<size;i++){
+            ar[i]=sc.nextInt();
+        }
+        System.out.print("enter the valur you want to search:");
+        int x=sc.nextInt();
+
+        for(int i=0;i<size;i++){
+            if(ar[i]==x){
+                System.out.print("x found at index:"+ i);
+            }
+        }
+    }
+}
+
+
+//java program to find maximum and minimum number
+
+import java.util.*;
+class program{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the size of an array:");
+        int size=sc.nextInt();
+        int ar[]=new int[size];
+
+        for(int i=0;i<size;i++){
+            ar[i]=sc.nextInt();
+        }
+        int max=ar[0];
+        int min=ar[0];
+
+        for(int i=0;i<size;i++){
+            if(ar[i]>max){
+                max=ar[i];
+            }
+            if(ar[i]<min){
+                min=ar[i];
+            }
+        }
+        System.out.print("maximum number is " + max);
+        System.out.print("minimum number is " + min);
+        
+    }
+}
 
