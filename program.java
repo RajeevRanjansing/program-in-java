@@ -502,3 +502,28 @@ class program{
         }
     }
 }
+
+//java program to find palindrome
+
+import java.util.*;
+class q{
+    public static void main(String args[]){
+        int s=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter a number: ");
+        int n=sc.nextInt();
+        int c=n;
+        while(n>0){
+            int r=n%10;
+             s=(s*10)+r;
+            n=n/10;
+        }
+        if(c==s){
+            System.out.print("It is pallindrome number");
+        }
+        else{
+            System.out.print("It is not pallindrome number");
+        }
+    }
+}
+
