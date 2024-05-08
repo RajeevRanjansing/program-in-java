@@ -18,7 +18,7 @@ class program{
 
 //java program to perform calculation
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -35,7 +35,7 @@ class program{
 
 //java program to find area of triangle
 
- import java.util.*;
+ import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -50,7 +50,7 @@ class program{
 
 //java program to find area of circle
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -63,7 +63,7 @@ class program{
 
 //java program to calculate simple interest
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -127,7 +127,7 @@ class program{
 
 //java program to check whether the character is vowel or not
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -135,17 +135,17 @@ class program{
         char ch=sc.next().charAt(0);
         if(ch=='a' || ch=='e' ||ch=='i' ||ch=='o' ||ch=='u' ||ch=='A' ||ch=='E' ||ch=='I' ||ch=='O' || ch=='U')
         {
-            System.out.print("it is vowel");
+            System.out.print(ch +" it is vowel");
         }
         else{
-            System.out.print("it is consonent");
+            System.out.print(ch +" it is consonent");
          }
         }
  }
 
-//java program to check whether the character is vowel or not using switch case
+//java program to check whether the character is vowel by using switch case
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -202,7 +202,7 @@ class program{
     }
 }
 
-// //java program to find sum of integer between 1 to 10 using do while loop
+// java program to find sum of integer between 1 to 10 using do while loop
 
 class program{
     public static void main(String args[]){
@@ -217,9 +217,9 @@ class program{
     }
 }
 
-java program to find maximum and minimum
+//java program to find maximum and minimum
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         int sum=0;
@@ -271,7 +271,7 @@ class program{
 
 //java program to find sum
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         int sum=0;
@@ -290,7 +290,7 @@ class program{
 
 //java program to search index of a number
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -345,7 +345,7 @@ class program{
 
 //java program to print odd number between 1 to 20
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         for(int i=0;i<20;i++){
@@ -358,7 +358,7 @@ class program{
 
 //java program to find factorial
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         int fact=1;
@@ -374,7 +374,7 @@ class program{
 
 //java program to find first n fibonacci series
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         int a=0;
@@ -396,7 +396,7 @@ class program{
 
 //java program to reverse a number
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -412,7 +412,7 @@ class program{
 
 //java program to evaluate the series 1^2 + 2^2 + 3^2 + 4^2
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         int sum=0;
@@ -480,7 +480,7 @@ class program{
 
 //java program to find even or odd from given number
 
-import java.util.*;
+import java.util.Scanner;
 class program{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -505,7 +505,7 @@ class program{
 
 //java program to find palindrome
 
-import java.util.*;
+import java.util.Scanner;
 class q{
     public static void main(String args[]){
         int s=0;
